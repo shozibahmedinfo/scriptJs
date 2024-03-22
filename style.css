@@ -1,0 +1,17 @@
+/* This is a html body style */
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+/* This is a Section Me h1 id center */
+.me h1{
+    text-align: center;
+}
