@@ -225,20 +225,6 @@ function inof(){
     document.getElementById("read").innerHTML=result;
 };
 //inof();
-// The javaScript Array reverse() method return the reverse sequence.
-function rev(){
-    const name=["Ahmed","Shozib"];
-    let result=name.reverse();
-    document.getElementById("read").innerHTML=result;
-};
-//rev();
-// The JavaScript Array push() method add one or more element to the end of the given array.
-function pus(){
-    const city=["Bheramar","Kushtia","Khulna","Dhaka"];
-    city.push("Bangladesh");
-    document.getElementById("read").innerHTML=go;
-};
-//pus();
 // The javaScript Array pop() method removes the last element.
 function po(){
     const friendName=["Abid","Vramar","Shakil","Mintu","Shobug","Tuhin"];
@@ -246,6 +232,20 @@ function po(){
     document.getElementById("read").innerHTML=friendName;
 };
 //po();
+// The JavaScript Array push() method add one or more element to the end of the given array.
+function pus(){
+    const city=["Bheramar","Kushtia","Khulna","Dhaka"];
+    city.push("Bangladesh");
+    document.getElementById("read").innerHTML=go;
+};
+//pus();
+// The javaScript Array reverse() method return the reverse sequence.
+function rev(){
+    const name=["Ahmed","Shozib"];
+    let result=name.reverse();
+    document.getElementById("read").innerHTML=result;
+};
+//rev();
 // The javaScript Array sort() method, By sort() method follows the ascending order.
 function sor(){
     const point=[30,10,70,20,80,40,60,50];
@@ -260,8 +260,3 @@ function sli(){
     document.getElementById("read").innerHTML=result;
 };
 //sli();
-function sli(){
-    const number=[10,20,30,40,50,60,70,80];
-    let result=number.slice(2,7);
-    document.getElementById("read").innerHTML=result;
-};
