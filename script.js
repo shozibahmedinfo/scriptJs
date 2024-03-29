@@ -256,7 +256,7 @@ function sli(){
 // The javaScript Array sort() method, By sort() method follows the ascending order.
 function sor(){
     const point=[30,10,70,20,80,40,60,50];
-    let result=point.sort().reverse();
+    let result=point.sort();
     document.getElementById("read").innerHTML=result;
 };
 //sor();
@@ -266,4 +266,11 @@ function sore(){
     let result = number.sort().reverse();
     document.getElementById("read").innerHTML=result;
 };
-sore();
+//sore();
+// The javaScript Array splice(index,remove,itme) method is used to add/remove the element to/from the existing array.
+function spiri(){
+    let friendName = ["Abid","Vramar","Shakil","Mintu","Shobug","Tuhin"];
+    friendName.splice(2,1,"Shozib");
+    document.getElementById("read").innerHTML=friendName;
+};
+//spiri();
