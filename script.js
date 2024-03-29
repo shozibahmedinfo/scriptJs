@@ -260,3 +260,8 @@ function sli(){
     document.getElementById("read").innerHTML=result;
 };
 //sli();
+function sli(){
+    const number=[10,20,30,40,50,60,70,80];
+    let result=number.slice(2,7);
+    document.getElementById("read").innerHTML=result;
+};
