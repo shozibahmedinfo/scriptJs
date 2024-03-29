@@ -246,13 +246,6 @@ function rev(){
     document.getElementById("read").innerHTML=result;
 };
 //rev();
-// The javaScript Array sort() method, By sort() method follows the ascending order.
-function sor(){
-    const point=[30,10,70,20,80,40,60,50];
-    let result=point.sort().reverse();
-    document.getElementById("read").innerHTML=result;
-};
-//sor();
 // The javaScript Array slice() method extracts the part of the given array & return it.
 function sli(){
     const number=[10,20,30,40,50,60,70,80];
@@ -260,3 +253,17 @@ function sli(){
     document.getElementById("read").innerHTML=result;
 };
 //sli();
+// The javaScript Array sort() method, By sort() method follows the ascending order.
+function sor(){
+    const point=[30,10,70,20,80,40,60,50];
+    let result=point.sort().reverse();
+    document.getElementById("read").innerHTML=result;
+};
+//sor();
+// The javaScript Array sort() method, Follows the ascending to descending order.
+function sore(){
+    let number = [90,23,24,10,30,50,40,69,70,89];
+    let result = number.sort().reverse();
+    document.getElementById("read").innerHTML=result;
+};
+sore();
