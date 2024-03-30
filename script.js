@@ -274,3 +274,39 @@ function spiri(){
     document.getElementById("read").innerHTML=friendName;
 };
 //spiri();
+// JavaScript Stirin mathod CharAt()If provides the char value present at the specified index.
+function chr(){
+    let country = "Bangladesh";
+    let result=country.charAt(3);
+    document.getElementById("read").innerHTML=result;
+};
+//chr()
+// javaSceipt Concat() if provides a combination to two or more string.
+function conc(){
+    let city = "Bheramara";
+    let district = "Kushtia";
+    let result = city.concat(district);
+    document.getElementById("read").innerHTML=result;
+};
+//conc();
+// javaScript indexOf() if provides the position of a char value prensent in the given string.
+function inof(){
+    let city = "Bheramar";
+    let result = city.indexOf("a");
+    document.getElementById("read").innerHTML=result;
+};
+//inof();
+// javaScript lastindexOf() if provides the position of a char value prensent in the given string by searching from the last position.
+function liof(){
+    let friendName = "Ahmed Ahmed";
+    let result = friendName.lastIndexOf("d");
+    document.getElementById("read").innerHTML=result;
+};
+//liof();
+// javaScript string replace() It replace a given string with the replacement.
+function rep(){
+    let countryName = "Bangladesh";
+    let result = countryName.replace("desh","bedesh");
+    document.getElementById("read").innerHTML=result;
+};
+//rep();
