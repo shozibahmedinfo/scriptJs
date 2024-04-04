@@ -260,7 +260,7 @@ function sor(){
     document.getElementById("read").innerHTML=result;
 };
 //sor();
-// The javaScript Array sort() method, Follows the ascending to descending order.
+// The JavaScript Array sort() method, Follows the ascending. And add to reverse() method to descending order.
 function sore(){
     let number = [90,23,24,10,30,50,40,69,70,89];
     let result = number.sort().reverse();
@@ -310,3 +310,25 @@ function rep(){
     document.getElementById("read").innerHTML=result;
 };
 //rep();
+// JavaSceipt toLowerCase() method it convarts the given stirng into lowercase letter.
+function tolc(){
+    let cName = "BanglaDesh";
+    let result = cName.toLowerCase();
+    document.getElementById("read").innerHTML=result;
+};
+//tolc();
+// JavaScript toUpperCase() method it convert the given string into uppercase letter.
+function upca(){
+    let cName = "BanglaDesh";
+    let result = cName.toUpperCase();
+    document.getElementById("read").innerHTML=result;
+};
+//upca();
+// JavaScript trime() method it the white space frome the let and right said of the string.
+function tr(){
+    let name = "  My Name is Shozib Ahmed  ";
+    let result = name.trim();
+    let go = result.length;
+    document.getElementById("read").innerHTML=go;
+};
+//tr();
