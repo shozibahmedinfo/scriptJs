@@ -333,3 +333,14 @@ function tr(){
 };
 //tr();
 /* *********************************** This is a JavaScript new section *********************************** */
+
+// The javaScript varibale simpul
+function newcode(){
+    let fullName = "Shozib Ahmed";
+    let age = 27;
+    let cgps = 4.50;
+    let ispass = true;
+    age = 28; // varibale update
+    document.getElementById("read").innerHTML=age;
+};
+//newcode();
