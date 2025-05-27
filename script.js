@@ -380,3 +380,28 @@ function asig(){
     document.getElementById("read").innerHTML=a;
 };
 // asig();
+// The javascript Comparison operators (equl ===) and (not equl !==) 
+function comp(){
+    let a = 30;
+    let b = 20;
+    document.getElementById("read").innerHTML= a !== b;
+};
+// comp();
+// The javasceipt Logical && operators (&&)
+function logi(){
+    let a = 30;
+    let b = 20;
+    let condit1 = a > b;     //True 
+    let condit2 = a === 30; //True
+    document.getElementById("read").innerHTML=condit1 && condit2 ;
+};
+// logi();
+// The javasceipt Logical OR operators (||)
+function ors(){
+    let a = 30;
+    let b = 20;
+    let condit1 = a < b;     //False
+    let condit2 = a !== 30; //False
+    document.getElementById("read").innerHTML=condit1 || condit2 ; 
+};
+// ors();
