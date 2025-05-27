@@ -372,3 +372,11 @@ function unr(){
     document.getElementById("read").innerHTML=a;
 };
 // unr();
+// The javascript Asigenment operators
+function asig(){
+    let a = 3;
+    let b = 30;
+    a += 4; // a = a + 4
+    document.getElementById("read").innerHTML=a;
+};
+// asig();
