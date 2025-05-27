@@ -356,3 +356,19 @@ function collection(){
     document.getElementById("read").innerHTML=student["age"];
 };
 //collection();
+// The javascript Artimetic operators
+function artopr(){
+    let a = 3;
+    let b = 10;
+    let c = a+b;
+    document.getElementById("read").innerHTML=c;
+};
+//artopr();
+// The javascript Unary operators
+function unr(){
+    let a = 10;
+    let b = 30;
+    a++; // Increment values
+    document.getElementById("read").innerHTML=a;
+};
+// unr();
