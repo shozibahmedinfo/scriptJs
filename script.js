@@ -332,3 +332,4 @@ function tr(){
     document.getElementById("read").innerHTML=go;
 };
 //tr();
+/* *********************************** This is a JavaScript new section *********************************** */
