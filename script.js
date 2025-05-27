@@ -344,3 +344,15 @@ function newcode(){
     document.getElementById("read").innerHTML=age;
 };
 //newcode();
+// The javascript object studint id collections
+function collection(){
+    const student = {
+        fullName:"Shozib Ahmed",
+        age:28,
+        cgpa:4.50,
+        ispass:false,
+    };
+    student["age"] = student["age"]+1; // javascript object key collections change
+    document.getElementById("read").innerHTML=student["age"];
+};
+//collection();
