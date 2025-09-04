@@ -405,3 +405,4 @@ function ors(){
     document.getElementById("read").innerHTML=condit1 || condit2 ; 
 };
 // ors();
+// *****************************************
