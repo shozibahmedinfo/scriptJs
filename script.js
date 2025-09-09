@@ -387,7 +387,7 @@ function comp(){
     document.getElementById("read").innerHTML= a !== b;
 };
 // comp();
-// The javasceipt Logical && operators (&&)
+// The javascript Logical && operators (&&)
 function logi(){
     let a = 30;
     let b = 20;
@@ -396,7 +396,7 @@ function logi(){
     document.getElementById("read").innerHTML=condit1 && condit2 ;
 };
 // logi();
-// The javasceipt Logical OR operators (||)
+// The javascript Logical OR operators (||)
 function ors(){
     let a = 30;
     let b = 20;
@@ -405,4 +405,10 @@ function ors(){
     document.getElementById("read").innerHTML=condit1 || condit2 ; 
 };
 // ors();
-// *****************************************
+// The javascript Logical Not operators (!)
+function logno(){
+    let isAudlt = true; //Output false
+    let isAdmin = false; //Output true
+    document.getElementById("read").innerHTML=!isAdmin;
+};
+//logno();
