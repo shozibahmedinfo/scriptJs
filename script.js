@@ -440,3 +440,22 @@ function oddve(){
     }
 };
 //oddve();
+//The javaScript if else-if conditinoal statemeant
+function ifesles(){
+    let age = 60;
+    if(age < 18){
+        document.getElementById("read").innerHTML="Junior";
+    } else if(age >= 60){
+        document.getElementById("read").innerHTML="Senior";
+    } else{
+        document.getElementById("read").innerHTML="Middie";
+    }
+};
+//ifesles();
+//The javascript Terators operators compact if-else
+function compact(){
+    let age = 20;
+    let rejult = age > 18 ? "Adult" : "Not Adult";
+    document.getElementById("read").innerHTML=rejult;
+};
+//compact();
