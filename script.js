@@ -412,3 +412,31 @@ function logno(){
     document.getElementById("read").innerHTML=!isAdmin;
 };
 //logno();
+//The javaScript if conditional statement
+function ifsta(){
+    let age = 30;
+    if(age > 18){
+        document.getElementById("read").innerHTML="Are you Adult";
+    }
+};
+//ifsta();
+//The javaScript if-else conditional statement
+function ie(){
+    let age = 30;
+    if(age >= 18){
+        document.getElementById("read").innerHTML="Vot";
+    }else{
+        document.getElementById("read").innerHTML="No Vot";
+    }
+};
+//ie();
+//The javascript even or odd statemeant
+function oddve(){
+    let number = 2;
+    if(number % 2 === 0){
+        document.getElementById("read").innerHTML="Even Number";
+    }else{
+        document.getElementById("read").innerHTML="Odd Number";
+    }
+};
+//oddve();
