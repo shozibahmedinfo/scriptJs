@@ -425,7 +425,7 @@ function ie(){
     let age = 30;
     if(age >= 18){
         document.getElementById("read").innerHTML="Vot";
-    }else{
+    } else{
         document.getElementById("read").innerHTML="No Vot";
     }
 };
@@ -440,7 +440,7 @@ function oddve(){
     }
 };
 //oddve();
-//The javaScript if else-if conditinoal statemeant
+//The javaScript if else-if else multipul conditinoal statemeant
 function ifesles(){
     let age = 60;
     if(age < 18){
@@ -452,10 +452,33 @@ function ifesles(){
     }
 };
 //ifesles();
-//The javascript Terators operators compact if-else
+//The javascript Terators operators compact if-else statemeant
 function compact(){
     let age = 20;
     let rejult = age > 18 ? "Adult" : "Not Adult";
     document.getElementById("read").innerHTML=rejult;
 };
 //compact();
+// The javascript get user to input a number using prompt 
+// (Enter a number:)Check if the number is a multiple of 5 or not.
+function prom(){
+    let name = prompt("welcome");
+    if(name % 5 === 0){
+        document.getElementById("read").innerHTML="Miltipul 5";
+    } else{
+        document.getElementById("read").innerHTML="Not miltipul 5";
+    }
+};
+//prom();
+// The javaScript write a code which can give grades to students according to theri scores
+function student(){
+    let number = 79;
+    if(number >= 90 && number <= 100){
+        document.getElementById("read").innerHTML="A+";
+    } else if(number >= 70 && number <= 89){
+        document.getElementById("read").innerHTML="A-";
+    } else{
+        document.getElementById("read").innerHTML="F";
+    }
+};
+//student();
