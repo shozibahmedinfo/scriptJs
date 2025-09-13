@@ -482,3 +482,13 @@ function student(){
     }
 };
 //student();
+//For Loops are used to execute a price of code again & again
+function forl(){
+    let output = "";
+    let i = 0;
+    for(i = 1; i <= 5; i++){
+        output += i+ "Shozib<br>";
+    }
+    document.getElementById("read").innerHTML=output;
+};
+//forl();
