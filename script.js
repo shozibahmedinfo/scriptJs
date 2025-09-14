@@ -63,7 +63,7 @@ function de(){
         document.getElementById("read").innerHTML=output;
     }
 };
-de();
+//de();
 // The javaScript while loop statement entry control loop
 function rs(){
     let output="";
@@ -503,4 +503,3 @@ function whiles(){
     document.getElementById("read").innerHTML=output;
 };
 //whiles();
-///d
