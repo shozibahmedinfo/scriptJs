@@ -63,7 +63,7 @@ function de(){
         document.getElementById("read").innerHTML=output;
     }
 };
-//de();
+de();
 // The javaScript while loop statement entry control loop
 function rs(){
     let output="";
@@ -492,3 +492,14 @@ function forl(){
     document.getElementById("read").innerHTML=output;
 };
 //forl();
+// The javaScript while loops conditional statemeant
+function whiles(){
+    output ="";
+    let i = 1;
+    while(i<=10){
+        output += i+"While loops<br>";
+        i=i+2;
+    }
+    document.getElementById("read").innerHTML=output;
+};
+//whiles();
