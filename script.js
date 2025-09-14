@@ -503,3 +503,4 @@ function whiles(){
     document.getElementById("read").innerHTML=output;
 };
 //whiles();
+///d
