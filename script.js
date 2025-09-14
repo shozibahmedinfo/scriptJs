@@ -503,3 +503,14 @@ function whiles(){
     document.getElementById("read").innerHTML=output;
 };
 //whiles();
+// The javascript do while loops conditionals statemeant
+function dowhiles(){
+    let output = "";
+    let i = 0;
+    do{
+        output += i+ "Do while <br>";
+        i++;
+    } while(i <= 5);
+    document.getElementById("read").innerHTML=output;
+};
+//dowhiles();
