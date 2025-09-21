@@ -514,3 +514,4 @@ function dowhiles(){
     document.getElementById("read").innerHTML=output;
 };
 //dowhiles();
+// thak
