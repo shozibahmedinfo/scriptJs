@@ -514,4 +514,37 @@ function dowhiles(){
     document.getElementById("read").innerHTML=output;
 };
 //dowhiles();
-// thak
+// The javascript for in loops object conditionals statemeant
+function foin(){
+    let output = "";
+    const student = {name:"shozib",rool:302,age:28,ispass:true};
+    for(let i in student){
+        output += i+ "<br>";
+    }
+    document.getElementById("read").innerHTML=output;
+};
+//foin();
+//The javascript for loops even number conditionals statemeant
+function fols(){
+    let output = "";
+    for(i = 0; i <= 100; i++){
+        if(i % 2 === 0){
+            document.getElementById("read").innerHTML=i;
+            output += i+ "<br>";
+        }
+    }
+    document.getElementById("read").innerHTML=output;
+};
+//fols();
+// The javascritp while loop gamen conditionals statemeant
+function game(){
+    let output = "";
+    let gameNumber = 28;
+    let userNumber = prompt("Enter you game number");
+    while(userNumber != gameNumber){
+        userNumber = prompt("Rong number");
+        output += i+ "";
+    }
+    document.getElementById("read").innerHTML="Welcome To Game",output;
+};
+//game();
