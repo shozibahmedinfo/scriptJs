@@ -524,7 +524,7 @@ function foin(){
     document.getElementById("read").innerHTML=output;
 };
 //foin();
-//The javascript for loops even number conditionals statemeant
+//The javascript for loops 0 - 100 even & odd number conditionals statemeant
 function fols(){
     let output = "";
     for(i = 0; i <= 100; i++){
@@ -548,3 +548,25 @@ function game(){
     document.getElementById("read").innerHTML="Welcome To Game",output;
 };
 //game();
+//The javasceipt String is a sequence of characters used to represnt text
+function stir(){
+    let name = "Shozib Ahmed";
+    document.getElementById("read").innerHTML=name.length;
+    //document.getElementById("read").innerHTML=name[3];
+    //document.getElementById("read").innerHTML=typeof name;
+};
+//stir();
+//The javascript stirng.toUpperCase() these are built-in functions to manipulate a string
+function bilt(){
+    let name = "Shozib Ahmed";
+    let upper = name.toUpperCase();
+    document.getElementById("read").innerHTML=upper;
+};
+//bilt();
+//The javasceipt string.toLowerCase() string methods
+function lower(){
+    let name = "Shozib Ahmed";
+    let lower = name.toLowerCase();
+    document.getElementById("read").innerHTML=lower;
+};
+//lower();
