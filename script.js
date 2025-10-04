@@ -570,3 +570,17 @@ function lower(){
     document.getElementById("read").innerHTML=lower;
 };
 //lower();
+// The javaScript stirn.trim() remove whitespace methods
+function trim(){
+    let name = "    Shozib Ahmed     ";
+    let trim = name.trim();
+    document.getElementById("read").innerHTML=trim;
+};
+//trim();
+// The javaScript prompt stirng methods
+function user(){
+    let fullName = prompt("Enter your full name now space");
+    let rejult = "@" + fullName + fullName.length;
+    document.getElementById("read").innerHTML=rejult;
+};
+//user();
