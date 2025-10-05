@@ -524,6 +524,16 @@ function foin(){
     document.getElementById("read").innerHTML=output;
 };
 //foin();
+// The javaScript For in loop object print all elements
+function kdl(){
+    let output = "";
+    const bike = {name:"Bmw",cc:1000,top:300,color:"black"};
+    for(let i in bike){
+        output += bike[i]+"<br>";
+    }
+    document.getElementById("read").innerHTML=output;
+};
+//kdl();
 //The javascript for loops 0 - 100 even & odd number conditionals statemeant
 function fols(){
     let output = "";
@@ -570,7 +580,7 @@ function lower(){
     document.getElementById("read").innerHTML=lower;
 };
 //lower();
-// The javaScript stirn.trim() remove whitespace methods
+// The javaScript stirn.trim() remove Stating & End whitespace methods
 function trim(){
     let name = "    Shozib Ahmed     ";
     let trim = name.trim();
@@ -590,3 +600,33 @@ function ard(){
     document.getElementById("read").innerHTML=studentName[3];
 };
 //ard();
+// The javaScript For loop over an Array print all elements
+function arlo(){
+    let output = "";
+    const friendName = ["Shakil","Vramor","Abid","Shaking","Yamin","Tuhin","Pravel"];
+    for(let i = 0; i < friendName.length; i++){
+        output += friendName[i]+"<br>";
+    }
+    document.getElementById("read").innerHTML=output;
+};
+//arlo();
+//The javaScript For loop over an Array print all elements
+function cap(){
+    let output = "";
+    const city = ["Bheramar","Kushtia","Khulna","Rajshei"];
+    for(let i of city){
+        output += i+"<br>";
+    }
+    document.getElementById("read").innerHTML=output;
+};
+//cap();
+function nuse(){
+    let output = "";
+    const mark = [85,97,44,37,76,60];
+    let sum = 0;
+    for(i of mark){
+        output += i + mark;
+    }
+    document.getElementById("read").innerHTML=output;
+};
+//nuse();
