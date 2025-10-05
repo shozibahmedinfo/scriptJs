@@ -132,7 +132,7 @@ function cse(){
         output+=city[i]+"<br>";
     }
     document.getElementById("read").innerHTML=output;
-}
+};
 //cse();
 // The JavaSceipt For in loop over array statement
 function cds(){
@@ -584,3 +584,9 @@ function user(){
     document.getElementById("read").innerHTML=rejult;
 };
 //user();
+// The javaScript Array is an object
+function ard(){
+    let studentName = ["Shozib","Vramor","Abid","Shakil"];
+    document.getElementById("read").innerHTML=studentName[3];
+};
+//ard();
