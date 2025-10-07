@@ -587,7 +587,7 @@ function trim(){
     document.getElementById("read").innerHTML=trim;
 };
 //trim();
-// The javaScript prompt stirng methods
+// The javaScript prompt input username stirng methods output @username8
 function user(){
     let fullName = prompt("Enter your full name now space");
     let rejult = "@" + fullName + fullName.length;
@@ -610,7 +610,7 @@ function arlo(){
     document.getElementById("read").innerHTML=output;
 };
 //arlo();
-//The javaScript For loop over an Array print all elements
+//The javaScript For of loop over an Array print all elements
 function cap(){
     let output = "";
     const city = ["Bheramar","Kushtia","Khulna","Rajshei"];
@@ -620,13 +620,15 @@ function cap(){
     document.getElementById("read").innerHTML=output;
 };
 //cap();
-function nuse(){
+// The javaScript for loops for a given array with prices of [250,380,499,550,600] itmes All items have an offer of 10%
+function dlo(){
     let output = "";
-    const mark = [85,97,44,37,76,60];
-    let sum = 0;
-    for(i of mark){
-        output += i + mark;
+    const prices = [250, 380, 499, 550, 600];
+    const discount = 0.10; // 10% discount
+    for (let i = 0; i < prices.length; i++) {
+        let discountedPrice = prices[i] - (prices[i] * discount);
+        output += `Original Price: $${prices[i]}, Discounted Price: $${discountedPrice.toFixed(2)}`+"<br>";
     }
     document.getElementById("read").innerHTML=output;
 };
-//nuse();
+//dlo();
