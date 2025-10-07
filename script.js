@@ -632,3 +632,68 @@ function dlo(){
     document.getElementById("read").innerHTML=output;
 };
 //dlo();
+// The JavaScript Array itme.push() method add one or more element to the end of the given array.
+function arpu(){
+    const city = ["Bheramar","Kushtia","Khulna","Rajashie"];
+    city.push("Dhaka","Bangladesh");
+    document.getElementById("read").innerHTML=city;
+};
+//arpu();
+// The javaScript Array itme.pop() mathod remove from End itames & return
+function arpop(){
+    const city = ["Bheramar","Kushtia","Khulna","Rajashie"];
+    city.pop();
+    document.getElementById("read").innerHTML=city;
+};
+//arpop();
+// The javaScript Array itame.concat() method combines two or omre arrays & returns a new string.
+function conc(){
+    const friendName = ["Shakil","Vramor","Abid","Pravel","Yamin","Sakienur"];
+    const city = ["Bheramar","Kushtia","Khulna","Rajashie"];
+    let rejult = friendName.concat(city);
+    document.getElementById("read").innerHTML=rejult;
+};
+//conc();
+// The javaScript Array itmes.slice() method extracts the part of the given array & return it.
+function slice(){
+    const number = [10,20,30,40,50,60,70,80];
+    let rejult = number.slice(1,5);
+    document.getElementById("read").innerHTML=rejult;
+};
+//slice();
+// The javaScript Array splice(index,remove,itme) method is used to add/remove the element to/from the existing array.
+function spiri(){
+    let friendName = ["Abid","Vramar","Shakil","Mintu","Shobug","Tuhin"];
+    friendName.splice(2,1,"Shozib");
+    document.getElementById("read").innerHTML=friendName;
+};
+//spiri();
+
+function spsiri(){
+    let friendName = ["Blommber","Microsoft","Uber","Google","IBM","Netflix"];
+    friendName.shift();
+    friendName.splice(1,1,"Ola");
+    friendName.push("Amazon");
+    document.getElementById("read").innerHTML=friendName;
+};
+//spsiri();
+
+
+
+
+
+
+
+
+
+
+// The JavaScript Array itme.push() method add one or more element to the end of the given array.
+// The javaScript Array itme.pop() mathod remove from End itames & return
+// The javaScript Array itame.concat() method combines two or omre arrays & returns a new string.
+// The javaScript Array itmes.slice() method extracts the part of the given array & return it.
+// The javaScript Array splice(index,remove,itme) method is used to add/remove the element to/from the existing array.
+
+// Create an array to stre commpanies 
+// (a)remove the first company from the array 
+// (b)remove uber & add ola in its place 
+// (c)add amazon at end
