@@ -639,6 +639,13 @@ function arpu(){
     document.getElementById("read").innerHTML=city;
 };
 //arpu();
+// The javaScript Array shift() method fast itames remove
+function lkeo(){
+    let bike = ["Yahama","Sujuke","Honda"];
+    bike.shift();
+    document.getElementById("read").innerHTML=bike;
+};
+//lkeo();
 // The javaScript Array itme.pop() mathod remove from End itames & return
 function arpop(){
     const city = ["Bheramar","Kushtia","Khulna","Rajashie"];
@@ -668,32 +675,15 @@ function spiri(){
     document.getElementById("read").innerHTML=friendName;
 };
 //spiri();
-
-function spsiri(){
+// Create an array to stre commpanies (a)remove the first company from the array 
+// (b)remove uber & add ola in its place (c)add amazon at end
+function ewelf(){
     let friendName = ["Blommber","Microsoft","Uber","Google","IBM","Netflix"];
     friendName.shift();
     friendName.splice(1,1,"Ola");
     friendName.push("Amazon");
     document.getElementById("read").innerHTML=friendName;
 };
-//spsiri();
+//ewelf();
 
 
-
-
-
-
-
-
-
-
-// The JavaScript Array itme.push() method add one or more element to the end of the given array.
-// The javaScript Array itme.pop() mathod remove from End itames & return
-// The javaScript Array itame.concat() method combines two or omre arrays & returns a new string.
-// The javaScript Array itmes.slice() method extracts the part of the given array & return it.
-// The javaScript Array splice(index,remove,itme) method is used to add/remove the element to/from the existing array.
-
-// Create an array to stre commpanies 
-// (a)remove the first company from the array 
-// (b)remove uber & add ola in its place 
-// (c)add amazon at end
