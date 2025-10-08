@@ -685,5 +685,30 @@ function ewelf(){
     document.getElementById("read").innerHTML=friendName;
 };
 //ewelf();
-
-
+// The javaScript return function statements conditionals
+function itame(a,b){
+    let me = a + b;
+    return me;
+}
+//let rejult = itame(10,10);
+//document.getElementById("read").innerHTML=rejult;
+// The javaScript Arrofunction smoll calculation use to arroFunction
+const my = (a,b) => {
+    return a+b;
+}
+//let rejult = my(10,100);
+//document.getElementById("read").innerHTML=rejult;
+function conuntVoy(str){
+    let output = "";
+    let i = 0;
+    for(let i of str){
+        if(i === "a" || i === "e" || i === "i"){
+            i++;
+        }
+        
+        return i;
+    }
+    
+};
+let ss = conuntVoy("aaabc");
+document.getElementById("read").innerHTML=ss;
