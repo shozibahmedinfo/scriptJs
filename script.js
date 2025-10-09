@@ -698,17 +698,25 @@ const my = (a,b) => {
 }
 //let rejult = my(10,100);
 //document.getElementById("read").innerHTML=rejult;
-function conuntVoy(str){
+// The javaScript For of loops String as an arguments & return the number of vowels in the stirng
+function countVowels(stri){
+    let i;
+    let is = 0;
+    for(i of stri.toLowerCase()){
+        if (i === "a" || i === "e" || i === "i" || i === "o" || i === "u") {
+            is++;
+        };
+    } return is;
+} 
+//let ke = countVowels("Shozibahmed");
+// document.getElementById("read").innerHTML=ke;
+// The javaScript itmes.forEach callback is a function passed as an argument to another function 
+function foreach(){
     let output = "";
-    let i = 0;
-    for(let i of str){
-        if(i === "a" || i === "e" || i === "i"){
-            i++;
-        }
-        
-        return i;
-    }
-    
+    const mark = [10,20,30,40,50,60,70,80,90,100];
+    mark.forEach(function myValy(itmes){
+        output += itmes +"<br>";
+    });
+    document.getElementById("read").innerHTML=output;
 };
-let ss = conuntVoy("aaabc");
-document.getElementById("read").innerHTML=ss;
+// foreach();
