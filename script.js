@@ -720,3 +720,5 @@ function foreach(){
     document.getElementById("read").innerHTML=output;
 };
 // foreach();
+
+// The javaScript itmes.forEach callback is a function passed as an argument to another function 
