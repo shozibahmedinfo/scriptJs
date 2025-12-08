@@ -720,8 +720,14 @@ function foreach(){
     document.getElementById("read").innerHTML=output;
 };
 // foreach();
-
-// The javaScript itmes.forEach callback is a function passed as an argument to another function 
-function me(){
-    document.getElementById("read").innerHTML=se;
-}
+// The javaScript parameter -> input and Argument
+function para(itme){
+    // Parameter-> input
+    document.getElementById("read").innerHTML=itme;
+};
+// para("Welcom_Bangladesh"); // Argument
+// The javaScript parameter Function-> 2 number, sum
+function sum(a,b){
+    document.getElementById("read").innerHTML=a+b;
+};
+// sum(100,30);
