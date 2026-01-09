@@ -731,3 +731,12 @@ function sum(a,b){
     document.getElementById("read").innerHTML=a+b;
 };
 // sum(100,30);
+// The javaScript 3 + 4 =?
+function pluse(){
+    let output = "";
+    let me = 3;
+    let you = 4;
+    let eq = me + you;
+    document.getElementById("read").innerHTML=eq;
+};
+pluse();
