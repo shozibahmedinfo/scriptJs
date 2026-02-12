@@ -739,4 +739,4 @@ function pluse(){
     let eq = me + you;
     document.getElementById("read").innerHTML=eq;
 };
-pluse();
+// pluse();
