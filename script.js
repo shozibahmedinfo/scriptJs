@@ -740,3 +740,4 @@ function pluse(){
     document.getElementById("read").innerHTML=eq;
 };
 // pluse();
+// javascript smtp
